@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio Version 17
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SuperAwesomeDelay - Standalone Plugin", "SuperAwesomeDelay_StandalonePlugin.vcxproj", "{FC58F140-3D66-143F-2048-B5BFA1323356}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5F3507C1-833B-27D0-F4BF-D72D7B7CF688} = {5F3507C1-833B-27D0-F4BF-D72D7B7CF688}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SuperAwesomeDelay - VST3", "SuperAwesomeDelay_VST3.vcxproj", "{47E921F3-92F0-6747-73EB-AFD6F6C8BB97}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5F3507C1-833B-27D0-F4BF-D72D7B7CF688} = {5F3507C1-833B-27D0-F4BF-D72D7B7CF688}
+		{5D66CD2F-9671-3C00-F1F1-F746C7841486} = {5D66CD2F-9671-3C00-F1F1-F746C7841486}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SuperAwesomeDelay - Shared Code", "SuperAwesomeDelay_SharedCode.vcxproj", "{5F3507C1-833B-27D0-F4BF-D72D7B7CF688}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SuperAwesomeDelay - VST3 Manifest Helper", "SuperAwesomeDelay_VST3ManifestHelper.vcxproj", "{5D66CD2F-9671-3C00-F1F1-F746C7841486}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47E921F3-92F0-6747-73EB-AFD6F6C8BB97}.Debug|x64.ActiveCfg = Debug|x64
+		{47E921F3-92F0-6747-73EB-AFD6F6C8BB97}.Debug|x64.Build.0 = Debug|x64
+		{47E921F3-92F0-6747-73EB-AFD6F6C8BB97}.Release|x64.ActiveCfg = Release|x64
+		{47E921F3-92F0-6747-73EB-AFD6F6C8BB97}.Release|x64.Build.0 = Release|x64
+		{FC58F140-3D66-143F-2048-B5BFA1323356}.Debug|x64.ActiveCfg = Debug|x64
+		{FC58F140-3D66-143F-2048-B5BFA1323356}.Debug|x64.Build.0 = Debug|x64
+		{FC58F140-3D66-143F-2048-B5BFA1323356}.Release|x64.ActiveCfg = Release|x64
+		{FC58F140-3D66-143F-2048-B5BFA1323356}.Release|x64.Build.0 = Release|x64
+		{5F3507C1-833B-27D0-F4BF-D72D7B7CF688}.Debug|x64.ActiveCfg = Debug|x64
+		{5F3507C1-833B-27D0-F4BF-D72D7B7CF688}.Debug|x64.Build.0 = Debug|x64
+		{5F3507C1-833B-27D0-F4BF-D72D7B7CF688}.Release|x64.ActiveCfg = Release|x64
+		{5F3507C1-833B-27D0-F4BF-D72D7B7CF688}.Release|x64.Build.0 = Release|x64
+		{5D66CD2F-9671-3C00-F1F1-F746C7841486}.Debug|x64.ActiveCfg = Debug|x64
+		{5D66CD2F-9671-3C00-F1F1-F746C7841486}.Debug|x64.Build.0 = Debug|x64
+		{5D66CD2F-9671-3C00-F1F1-F746C7841486}.Release|x64.ActiveCfg = Release|x64
+		{5D66CD2F-9671-3C00-F1F1-F746C7841486}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
